@@ -96,7 +96,21 @@ public class ArrayRowSwapJUnitTestCase {
 			}
 			System.out.println();
 		}
-		
+		assertEquals("Before Row Swapping \r\n" + 
+				"1	2	3	\r\n" + 
+				"4	5	6	\r\n" + 
+				"7	8	9	\r\n" + 
+				"After Row Swapping \r\n" + 
+				"3	2	1	\r\n" + 
+				"6	5	4	\r\n" + 
+				"9	8	7	", "Before Row Swapping \r\n" + 
+						"1	2	3	\r\n" + 
+						"4	5	6	\r\n" + 
+						"7	8	9	\r\n" + 
+						"After Row Swapping \r\n" + 
+						"3	2	1	\r\n" + 
+						"6	5	4	\r\n" + 
+						"9	8	7	");
 		
 	}
 
